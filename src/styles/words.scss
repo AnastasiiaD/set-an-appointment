@@ -1,0 +1,19 @@
+@import "colors";
+
+.words-wrapper {
+  & .words-container.container.ui{
+    margin-top: 200px;
+
+    @media only screen and (min-width: 900px) {
+      max-width: 100% !important;
+    }
+
+    .word-input{
+      margin: 5px;
+      width: 100%;
+    }
+    .word-label{
+      margin: 5px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./server/server.js",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run start\" \"npm run server\"",
+    "server": "nodemon --inspect ./server/server.js",
+    "client": "npm start --prefix client"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "browserslist": "^4.6.6",
+    "caniuse-lite": "^1.0.30000984",
+    "concurrently": "^3.5.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.2",
+    "helmet": "^3.20.0",
+    "http-proxy-middleware": "^0.19.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.17",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^6.3.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.1",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "request": "^2.88.0",
+    "url-parse": "^1.4.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.19.1",
+    "prop-types": "^15.6.2",
+    "react-router-dom": "^4.4.0-beta.8",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0"
+  }
+}
