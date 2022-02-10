@@ -54,7 +54,7 @@
     "url-parse": "^1.4.4"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.1",
     "prop-types": "^15.6.2",
     "react-router-dom": "^4.4.0-beta.8",
